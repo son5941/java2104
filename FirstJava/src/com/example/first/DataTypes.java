@@ -27,7 +27,10 @@ public class DataTypes {
 		System.out.println(range);
 		
 		short temperature;
-		temperature = 23767;   //최대 범위가 23767이다. 23768로 넘어가면 인식 못함. 
+		
+		temperature = 1115;   //최대 범위가 23767이다. 23768로 넘어가면 인식 못함. 
+		
+		System.out.println(temperature);
 		
 		//long    //태양까지 거리를 미터 단위로 환산하시오. 
 		

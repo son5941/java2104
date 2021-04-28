@@ -35,7 +35,7 @@ public class Variables {
 		System.out.println("0123456789");
 		System.out.printf("age : %5d\n", age);  // 5자리로(띄워쓰기) 찍어라   
 		System.out.printf("Temp. : %5.1f\n", cTem);  //5자리중에 소수자리 한자리로 찍어라.
-		
+		System.out.printf("All : %4.2f, %b", cTem, age);   //소수점 4에서 포인트 찍고 2자리까지
 		
 	}
 

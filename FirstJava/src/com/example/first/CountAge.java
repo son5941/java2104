@@ -24,7 +24,7 @@ public class CountAge {
 		// 입력을 위해 Scanner 클래스 객체를 선언한다. 
 		
 		Scanner reader = new Scanner(System.in);    //in에서 데이터를 받겠습니다. 시스템에 생성자를 입력해서 리더에 주겠다. 
-		System.out.print("생년을 입력 하세요 :  ");
+		System.out.print("생년을 입력 하세요 :  ");  //한번 벌스 다음으로 작성해서 확인해보자 왜나하면 next.int이것을 확인하기 위해!
 		
 		birthYear = reader.nextInt();    //읽어온 값! 인트 타입으로 읽어 온 값! 정수형으로 읽어 오겠다. 
 		
