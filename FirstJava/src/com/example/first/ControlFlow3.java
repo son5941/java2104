@@ -27,7 +27,7 @@ public class ControlFlow3 {
 				
 				// 2. 나이가 0이 아닌 동안 다음을 반복하시오 
                 // while, for = ~하는 동안
-				while(birthYear != 0) {   					  //!= 0이 아닌동안)
+				while(birthYear != 0) {   					  //!= 0이 아닌동안)    = 올라오게 하는것 방안에 빠져서 특정 신호가 없으면 못나감. 
 					System.out.println("생년월일을 입력하세요");
 					// 2.1 사용자로부터 생년을 입력받는다. 변수에 대입한다.
 					birthYear = read.nextInt();
