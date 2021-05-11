@@ -8,5 +8,4 @@ public class BirthDay {
 		int mouth;
 		int year;
 		
-		public void
 }
