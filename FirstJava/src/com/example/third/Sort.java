@@ -15,7 +15,7 @@ public class Sort {
 		
 		for( int base = 0; base < arr.length; base++) {
 			for(int compare = base + 1;compare < arr.length; compare++) {
-				if (arr[base] > arr[compare]) {
+				if (arr[base] > arr[compare]) {    // 등호 방향만 바꾸면 내림차순, 오름차순으로 바뀔 수 있다. 
 				  temp = arr[base];  //swap
 				  arr[base] = arr[compare];
 				  arr[compare] = temp; 
