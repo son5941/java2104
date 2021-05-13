@@ -1,7 +1,9 @@
 package com.example.ops;
 
 public class CustomerTest {
-
+			//모든 클레스는 상위클레스가 먼저 한번 돌아져야 하위클래스가 돌수 있다. 
+	
+	
 	
 	public static void main(String[] args) {
 		Customer kim = new Customer();   //생성자에서 가저오는것

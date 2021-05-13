@@ -12,6 +12,9 @@ public class Customer {
 	  customerGrade = "SILVER";  //무조건 기본등급은 실버등급. 생성자는 초기값을 제공한다. 
 	  bonusRatio = 0.01;
 	  
+	  System.out.println("customer 생성자 실행...");
+	  
+	  
 	}  // 생성자
 	
 	
